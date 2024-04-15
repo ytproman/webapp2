@@ -10,7 +10,7 @@ body{
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    background: #ffffff;
+    background: #000000;
     color: #ffffff;
     text-align: center;
 }
@@ -19,6 +19,7 @@ body{
     height: 100vh;
     background-repeat: no-repeat;
     background-size: cover;
+    background-image: url("img/back.png");
 }
 
 h1,h2,div{
