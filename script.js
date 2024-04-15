@@ -21,7 +21,7 @@ const hide = ()=>{
 const change = async (path)=>{
     document.getElementById('image2').style.display='none';
     document.getElementById('image1').style.display='none';
-    document.getElementById('image3').style.marginTop="16px";
+    document.getElementById('image3').style.marginTop="0.5px";
     document.getElementById('back').style.backgroundColor="black";
     document.getElementById('image3').style.display='inline-block';
     await sleep(timer);

@@ -10,7 +10,7 @@ body{
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    background: #000000;
+    background: #ffffff;
     color: #ffffff;
     text-align: center;
 }
@@ -19,7 +19,6 @@ body{
     height: 100vh;
     background-repeat: no-repeat;
     background-size: cover;
-    background-image: url("img/back8.png");
 }
 
 h1,h2,div{
@@ -136,9 +135,6 @@ h1,h2,div{
     .name, .undername{
         font-size: 29px;
     }
-    body{
-        background-image: url("img/back4.png");
-    }
     img{
         margin-top: -50px;
         height: 330px;
@@ -156,15 +152,10 @@ h1,h2,div{
     }
 }
 @media(max-width:390px){    
-    body{
-        background-image: url("img/back8.png");
-    }
+
 }
 @media(max-width:380px){
 
-    body{
-        background-image: url("img/back6.png");
-    }
     .random{
         margin-top: 105px;  
     }
@@ -173,9 +164,6 @@ h1,h2,div{
     .name, .undername{
         font-size: 29px;
     }
-    body{
-        background-image: url("img/back2.png");
-    }
     .btn{
         font-size: 25px;
     }
@@ -183,6 +171,11 @@ h1,h2,div{
         margin-top: -45px;
         height: 280px;
         width: 280px;
+    }
+    .load{
+        margin-top:25px;
+        width:200px;
+        height:200px;
     }
     .back{
         height: 280px;
@@ -198,9 +191,6 @@ h1,h2,div{
     }
     .btn{
         font-size: 20px;
-    }
-    body{
-        background-image: url("img/back3.png");
     }
     img{
         margin-top: -40px;
