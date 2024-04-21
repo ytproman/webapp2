@@ -10,7 +10,7 @@ body{
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    background: #000000;
+    background-image: url("img/back.png");
     color: #ffffff;
     text-align: center;
 }
@@ -80,6 +80,7 @@ h1,h2,div{
     height: 350px;
     width: 350px;
     border-radius: 10px;
+    box-shadow: 5px 3px 20px 1px #000000;
 }
 
 .random{
